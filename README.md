@@ -6,7 +6,9 @@ I designed this program as a simple way to toggle a single Hue light (namely, a 
 
 If you would like to request additional features, suggest improvements, etc. please feel free to email me [here](mailto:admin@fullcirclegfx.com)
 
-![alt text][image1]
+Download compiled(runnable) jar here: [simple_hue.jar](https://raw.githubusercontent.com/sparkison/simple-hue/blob/master/simpleHue/simple_hue.jar)
+
+<div style="text-align:center"><img src ="https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730" alt="simple hue main screen" /></div>
 
 Notes
 ------
@@ -17,7 +19,7 @@ After building the configuration file the program will run silently (it will loa
 
 If you would like to re-run the setup process simply deleted the associated **config** file.
 
-![alt text][image4]
+<div style="text-align:center"><img src ="https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730" alt="simple hue config screen2" /></div>
 
 Credit
 ------
