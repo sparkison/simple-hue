@@ -2,7 +2,7 @@ simple-hue
 ======
 A simple Java program to control your Philips Hue lights
 
-I designed this program as a simple way to toggle a single Hue light (namely, a lightstrip situated behined my TV). I didn't like the other options out there as they didn't offer quite what I was after. This program has a singular purpose - toggle the selected Hue light(s) on/off. That's it!
+I designed this program as a simple way to toggle a single Hue light (namely, a lightstrip situated behind my TV). I didn't like the other options out there as they didn't offer quite what I was after. This program has a singular purpose - toggle the selected Hue light(s) on/off. That's it!
 
 If you would like to request additional features, suggest improvements, etc. please feel free to email me [here](mailto:admin@fullcirclegfx.com)
 
