@@ -7,7 +7,7 @@ I designed this program as a simple way to toggle a single Hue light (namely, a 
 If you would like to request additional features, suggest improvements, etc. please feel free to email me [here](mailto:admin@fullcirclegfx.com)
 
 ![alt text][image1]
----
+
 Notes
 ------
 
