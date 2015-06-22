@@ -8,7 +8,7 @@ If you would like to request additional features, suggest improvements, etc. ple
 
 Download compiled(runnable) jar here: [simple_hue.jar](https://raw.githubusercontent.com/sparkison/simple-hue/blob/master/simpleHue/simple_hue.jar)
 
-<div style="text-align:center"><img src ="https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730" alt="simple hue main screen" /></div>
+<div style="text-align:center; margin:0 auto"><img src ="https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730" alt="simple hue main screen" /></div>
 
 Notes
 ------
@@ -19,7 +19,7 @@ After building the configuration file the program will run silently (it will loa
 
 If you would like to re-run the setup process simply deleted the associated **config** file.
 
-<div style="text-align:center"><img src ="https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730" alt="simple hue config screen2" /></div>
+<div style="text-align:centermargin:0 auto"><img src ="https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730" alt="simple hue config screen2" /></div>
 
 Credit
 ------
