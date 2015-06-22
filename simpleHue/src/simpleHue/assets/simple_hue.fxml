@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="simple_hue" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="460.0" minWidth="700.0" prefHeight="460.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simpleHue.SimpleHueController">
+   <children>
+      <HBox maxHeight="0.0" maxWidth="1.7976931348623157E308" scaleShape="false" style="-fx-background-color: #333;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="200.0">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <AnchorPane prefHeight="78.0" prefWidth="667.0">
+               <children>
+                  <Button fx:id="about_button" contentDisplay="TOP" mnemonicParsing="false" onAction="#aboutButtonClicked" text="About" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="start_panel" layoutY="78.0" prefHeight="323.0" prefWidth="600.0" style="-fx-background-color: #efefef;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
+         <children>
+            <Button fx:id="start_button" layoutX="222.0" layoutY="162.0" mnemonicParsing="false" onAction="#getStartedClicked" prefHeight="59.0" prefWidth="157.0" text="Connect" AnchorPane.leftAnchor="222.0" AnchorPane.rightAnchor="222.0" />
+            <TextArea fx:id="error_panel" editable="false" layoutX="12.0" layoutY="269.0" prefHeight="61.0" prefWidth="676.0" style="-fx-font-weight: bold; -fx-background-color: #efefef; -fx-border-color: red;" visible="false" wrapText="true" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="connecting_panel" layoutY="77.0" prefHeight="323.0" prefWidth="600.0" style="-fx-background-color: #efefef;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
+         <children>
+            <TextArea fx:id="message_box" editable="false" layoutX="100.0" layoutY="129.0" prefHeight="200.0" prefWidth="464.0" wrapText="true" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+            <ImageView layoutX="300.0" layoutY="14.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
+               <image>
+                  <Image url="@animated_hue.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="logged_in" layoutY="77.0" prefHeight="323.0" prefWidth="600.0" style="-fx-background-color: #efefef;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
+         <children>
+            <Text layoutX="50.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="simple hue configuration" textAlignment="CENTER" wrappingWidth="499.755859375" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="save_config_button" layoutX="280.0" layoutY="303.0" mnemonicParsing="false" onAction="#saveConfigClicked" text="Save configuration" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="260.0" />
+            <TableView fx:id="lights_table" layoutX="32.0" layoutY="58.0" prefHeight="234.0" prefWidth="600.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+              <columns>
+                  <TableColumn fx:id="light_id" editable="false" prefWidth="75.0" sortable="false" text="Light id" />
+                <TableColumn fx:id="light_name" editable="false" prefWidth="198.0" sortable="false" text="Light name" />
+                  <TableColumn fx:id="light_enable_toggle" prefWidth="132.0" sortable="false" text="Enable toggle" />
+                  <TableColumn fx:id="light_on_color" prefWidth="172.0" sortable="false" text="On color" />
+              </columns>
+            </TableView>
+            <Label fx:id="save_config_button_label" alignment="CENTER" contentDisplay="CENTER" layoutX="76.0" layoutY="342.0" prefHeight="32.0" prefWidth="548.0" textAlignment="CENTER" textFill="#a1a1a1" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="76.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="about_panel" layoutY="77.0" prefHeight="323.0" prefWidth="600.0" style="-fx-background-color: #efefef;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
+         <children>
+            <Text layoutX="100.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="simple hue by Shaun Parkison" textAlignment="CENTER" wrappingWidth="499.755859375" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.244140625">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="310.0" layoutY="19.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="310.0">
+               <image>
+                  <Image url="@info.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="about_close_button" layoutX="300.0" layoutY="304.0" mnemonicParsing="false" onAction="#aboutButtonClicked" text="Hide About" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" />
+            <ScrollPane layoutX="79.0" layoutY="131.0" prefHeight="150.0" prefWidth="600.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="140.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="150.0" prefWidth="580.0">
+                     <children>
+                        <Label text="Welcome to simple hue! This program is designed to offer a simple way to toggle your phillips hue light(s) on/off. Press connect to run initial configuration. Once the configuration file has been generated you will no longer see this screen. To re-configure simply delete the  generated configuration file.&#10;&#10;Note: to connect to new bridge, or start new configuration procedure, please delete the associated config file located in the same directory as this application." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
