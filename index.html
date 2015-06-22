@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Simple-hue by sparkison</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Simple-hue</h1>
-      <h2 class="project-tagline">A simple Java program to control your Philips Hue lights</h2>
-      <a href="https://github.com/sparkison/simple-hue" class="btn">View on GitHub</a>
-      <a href="https://github.com/sparkison/simple-hue/zipball/master" class="btn">Download .zip</a>
-      <a href="https://raw.githubusercontent.com/sparkison/simple-hue/blob/master/simpleHue/simple_hue.jar" class="btn">Download .jar</a>
-    </section>
+ <head>
+   <meta charset="UTF-8">
+   <title>Simple-hue by sparkison</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesheets/responsiveslides.css" media="screen">
+ </head>
+ <body>
+   <section class="page-header">
+     <h1 class="project-name">Simple-hue</h1>
+     <h2 class="project-tagline">A simple Java program to control your Philips Hue lights</h2>
+     <a href="https://github.com/sparkison/simple-hue" class="btn">View on GitHub</a>
+     <a href="https://github.com/sparkison/simple-hue/zipball/master" class="btn">Download .zip</a>
+     <a href="https://raw.githubusercontent.com/sparkison/simple-hue/blob/master/simpleHue/simple_hue.jar" class="btn">Download .jar</a>
+   </section>
 
-    <section class="main-content">
-      <h1>
-<a id="simple-hue" class="anchor" href="#simple-hue" aria-hidden="true"><span class="octicon octicon-link"></span></a>simple-hue</h1>
+   <section class="main-content">
+	
+	 <div style="text-align:center;margin:0 auto"><img src="img/animated_hue.gif" alt="animated hue bridge"></div>
+	
+     <h1><a id="simple-hue" class="anchor" href="#simple-hue" aria-hidden="true"><span class="octicon octicon-link"></span></a>simple-hue</h1>
 
-<p>A simple Java program to control your Philips Hue lights</p>
+		<p>A simple Java program to control your Philips Hue lights</p>
 
-<p>I designed this program as a simple way to toggle a single Hue light (namely, a lightstrip situated behined my TV). I didn't like the other options out there as they didn't offer quite what I was after. This program has a singular purpose - toggle the selected Hue light(s) on/off. That's it!</p>
+	<p>I designed this program as a simple way to toggle a single Hue light (namely, a lightstrip situated behined my TV). I didn't like the other options out there as they didn't offer quite what I was after. This program has a singular purpose - toggle the selected Hue light(s) on/off. That's it!</p>
 
-<p>If you would like to request additional features, suggest improvements, etc. please feel free to email me <a href="mailto:admin@fullcirclegfx.com">here</a></p>
+	<p>If you would like to request additional features, suggest improvements, etc. please feel free to email me <a href="mailto:admin@fullcirclegfx.com">here</a></p>
+	
+	<ul class="rslides">
+	  <li><img src="img/simpleHue1.png" alt="simple hue main screen"></li>
+	  <li><img src="img/simpleHue2.png" alt="simple hue login screen"></li>
+	  <li><img src="img/simpleHue3.png" alt="simple hue config screen"></li>
+	  <li><img src="img/simpleHue4.png" alt="simple hue config screen2"></li>
+	  <li><img src="img/simpleHue5.png" alt="simple hue saved config screen"></li>
+	</ul>
+	
+	<h2>
+	<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h2>
 
-<div style="text-align:center; margin:0 auto"><img src ="https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730" alt="simple hue main screen" /></div>
+	<p>This program has been tested on Mac OSX 10.10 and Windows 8.1. You shouldn't have any trouble running on Linux either. The program will run an initial discovery and user registration phase, after which you will be presented with a configuration screen to determine which lights should be toggled, and what color they should be set to when turned on.</p>
 
-<h2>
-<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h2>
+	<p>After building the configuration file the program will run silently (it will load the config, and determine whether to turn lights on or off, and to the color chosen).</p>
 
-<p>This program has been tested on Mac OSX 10.10 and Windows 8.1. You shouldn't have any trouble running on Linux either. The program will run an initial discovery and user registration phase, after which you will be presented with a configuration screen to determine which lights should be toggled, and what color they should be set to when turned on.</p>
+	<p>If you would like to re-run the setup process simply deleted the associated <strong>config</strong> file.</p>
 
-<p>After building the configuration file the program will run silently (it will load the config, and determine whether to turn lights on or off, and to the color chosen).</p>
+	<h2>
+	<a id="credit" class="anchor" href="#credit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credit</h2>
 
-<p>If you would like to re-run the setup process simply deleted the associated <strong>config</strong> file.</p>
+	<p>A huge thanks to <a href="https://github.com/Blodjer">Blodjer</a> for his <a href="https://github.com/Blodjer/HueImmersive">HueImmersive</a> program, which helped me get a huge jump start on this project, and also the <a href="https://github.com/PhilipsHue/PhilipsHueSDK-iOS-OSX">PhilipsHueSDK</a> for the RGB to XY conversion formula.</p>
 
-<div style="text-align:center; margin:0 auto"><img src ="https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730" alt="simple hue config screen2" /></div>
+     <footer class="site-footer">
+       <span class="site-footer-owner"><a href="https://github.com/sparkison/simple-hue">Simple-hue</a> is maintained by <a href="https://github.com/sparkison">Shaun Parkison (sparkison)</a>.</span>
 
-<h2>
-<a id="credit" class="anchor" href="#credit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credit</h2>
+     </footer>
 
-<p>A huge thanks to <a href="https://github.com/Blodjer">Blodjer</a> for his <a href="https://github.com/Blodjer/HueImmersive">HueImmersive</a> program, which helped me get a huge jump start on this project, and also the <a href="https://github.com/PhilipsHue/PhilipsHueSDK-iOS-OSX">PhilipsHueSDK</a> for the RGB to XY conversion formula.</p>
+   </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/sparkison/simple-hue">Simple-hue</a> is maintained by <a href="https://github.com/sparkison">sparkison</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/custom.js"></script>
+ 
+ </body>
 </html>
 
