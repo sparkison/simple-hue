@@ -8,8 +8,6 @@ If you would like to request additional features, suggest improvements, etc. ple
 
 Download compiled(runnable) jar here: [simple_hue.jar](https://raw.githubusercontent.com/sparkison/simple-hue/blob/master/simpleHue/simple_hue.jar)
 
-<div style="text-align:center; margin:0 auto"><img src ="https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730" alt="simple hue main screen" /></div>
-
 Notes
 ------
 
@@ -19,14 +17,6 @@ After building the configuration file the program will run silently (it will loa
 
 If you would like to re-run the setup process simply deleted the associated **config** file.
 
-<div style="text-align:center; margin:0 auto"><img src ="https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730" alt="simple hue config screen2" /></div>
-
 Credit
 ------
 A huge thanks to [Blodjer](https://github.com/Blodjer) for his [HueImmersive](https://github.com/Blodjer/HueImmersive) program, which helped me get a huge jump start on this project, and also the [PhilipsHueSDK](https://github.com/PhilipsHue/PhilipsHueSDK-iOS-OSX) for the RGB to XY conversion formula.
-
-[image1]: https://lh4.googleusercontent.com/LGI_0tvHtt9fEBrUxZd3RoEEfMrEWPVR1pAS9G9RX-BWuG4BOVLWcLpO7rKWFvDNRHuzNg=w1602-h730 "simple hue main screen"
-[image2]: https://lh3.googleusercontent.com/ncXXmeSC2OHve5c0zZ1vutyejlSVrzIX3xgEF5DWbYPJ87Xi0rqb0omBsPWPTU0UqHsVKw=w1602-h730 "simple hue login screen"
-[image3]: https://lh5.googleusercontent.com/5A3mwH2F4C0vcEcA-EZuyEjreTKEC0G4X7RaUMRbBXIoJERMdX0DBxN97krmzZGnHfbjww=w1602-h730 "simple hue config screen"
-[image4]: https://lh4.googleusercontent.com/BkTQ-CS3F4eJB1JsuJyWCHn9HST8mkSKgLqenx5Azyx0GewcBNOXwYzgMVeLlsAopukdsg=w1602-h730 "simple hue config screen2"
-[image5]: https://lh3.googleusercontent.com/3dVP4fkuVlV_BktIrk_tOjADinEK4dRNXGT186HBISf8Cxk7vYWc42T4i1AAO8e3ZeeYsw=w1602-h730 "simple hue saved config screen"
